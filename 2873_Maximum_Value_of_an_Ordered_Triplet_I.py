@@ -27,6 +27,5 @@ class Solution(object):
         print (maxim)
 
 obj = Solution()
-nums = list(map(int, input("Enter list of numbers in list format:e.g [ 12,6,1,2,7  ").split(',')))
-#nums = [12,6,1,2,7]
+nums = list(map(int, input("Enter list of numbers in list format:e.g [ 12,6,1,2,7 ] ").split(',')))
 obj.maximumTripletValue(nums)
